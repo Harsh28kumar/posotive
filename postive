@@ -1,0 +1,7 @@
+numbers=list(range(-10,10))
+print("\nThe total number in list are: " )
+print(numbers)
+for number in numbers:
+    if number>=0:
+        print("\nThe positive numbers in the list are:")
+        print(number)
